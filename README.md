@@ -16,12 +16,12 @@ The project contains the following files:
 
 1. **Clone the Repository**: 
    ```bash
-   git clone https://github.com/your_username/regression-model-docker.git
+   git clone git@github.com:NacerKH/EstimationDeliveryModel.git
    ```
 
 2. **Navigate to the Project Directory**:
    ```bash
-   cd regression-model-docker
+   cd EstimationDeliveryModel
    ```
 
 3. **Build the Docker Image**:
@@ -33,7 +33,10 @@ The project contains the following files:
    ```bash
    docker run regression-model
    ```
-
+4. **Run the Docker Container**:
+   ```bash
+   docker run regression-model
+   ```
 5. **View Results**:
    Check the terminal output for the results of the regression model evaluation.
 
