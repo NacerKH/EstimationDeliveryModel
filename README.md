@@ -33,12 +33,22 @@ The project contains the following files:
    ```bash
    docker run regression-model
    ```
-4. **Run the Docker Container**:
+
+5. **Get the Container Name**:
+ - docker ps -a.
+
+6. **Enter to Container**:  
+  - docker exec -it $CONTAINER_NAME bash
+
+7. **Run the Python Script**:
+   - Run All Algorithms:
    ```bash
-   docker run regression-model
+   python main.py
    ```
-5. **View Results**:
-   Check the terminal output for the results of the regression model evaluation.
+   - Get the best Model 
+   ```bash
+   python detectTheBestModel.py
+   ```
 
 ## Notes
 
